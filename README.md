@@ -4,11 +4,15 @@ QuickReadmore
 A "Readmore" plugin for jQuery
 
 # Basic stuff
-```$("selector").readmore();```
+```javascript
+$("selector").readmore();
+```
 
 # With options
-```$("selector").readmore({
+```javascript
+$("selector").readmore({
     more: "<a href='#'>Custom Read more</a>",
     less: "<a href='#'>Custom Close</a>", 
     toggleSpeed: "slow"
-  });```
+});
+```
