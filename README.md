@@ -16,3 +16,17 @@ $("selector").readmore({
     toggleSpeed: "slow"
 });
 ```
+
+# Example
+```html
+<div class="paragraph">
+    The text i want to be displayed at first
+    <div class="more">
+        The text to toggle on click
+    </div>
+</div>
+```
+
+```javascript
+$(".paragraph").readmore({toggleSpeed: slow});
+```
