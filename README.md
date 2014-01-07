@@ -1,6 +1,8 @@
 QuickReadmore
 =============
 
+TEST
+
 A "Readmore" plugin for jQuery
 
 # Basic stuff
